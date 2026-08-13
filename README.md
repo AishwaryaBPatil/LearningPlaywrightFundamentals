@@ -34,7 +34,7 @@ npx playwright show-report
 
 ## VS Code
 
-The official [Playwright Test](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) extension adds run buttons next to each test in the Testing sidebar. The Code Runner "Run Code" button is configured to run the open spec file via Playwright (see `.vscode/settings.json`).
+The official [Playwright Test](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) extension adds run buttons next to each test in the Testing sidebar.
 
 ## Project Structure
 
@@ -43,8 +43,6 @@ The official [Playwright Test](https://marketplace.visualstudio.com/items?itemNa
 ├── tests/                 # Test spec files
 │   └── Basic1/
 │       └── example.spec.ts
-├── scripts/
-│   └── run-spec.cjs       # Helper for the Code Runner "Run Code" button
 ├── playwright.config.ts   # Playwright configuration
 ├── tsconfig.json          # TypeScript configuration
 └── package.json
